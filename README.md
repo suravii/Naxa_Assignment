@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Project Name: Naxa Services Replica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a responsive web application built with React, Redux, and Tailwind CSS. It replicates the structure, layout, and functionality of the services page of the Naxa website. The application fetches data from an API and displays it in a visually appealing format.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design using Tailwind CSS
+- Fetch data from the Naxa services API
+- State management using Redux
+- Asynchronous data handling with Redux-Saga
+- Display of services in a structured layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- Basic understanding of React, Redux, and JavaScript
 
-## Expanding the ESLint configuration
+## Installation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/naxa-services-replica.git
+   cd naxa-services-replica
+2. **Install dependencies**
+   ```bash
+   npm install
+3. **Set up Tailwind CSS**
+   ```bash
+   npx tailwindcss init
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   module.exports = {
+    content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+    theme: {
+        extend: {},
+      },
+      plugins: [],
+    };
 
-- Configure the top-level `parserOptions` property like this:
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Usage
+1. **Start the application**
+   ```bash
+   npm run dev

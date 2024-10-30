@@ -49,7 +49,7 @@ const Services = () => {
                 <img 
                   src={service.icon} 
                   alt={`${service.title} icon`} 
-                  className={`service-icon ${service.id === 4 ? 'max-h-[1000px]' : 'max-h-[600px]'}`} // Apply max-height conditionally
+                  className={`service-icon ${service.id === 4 ? 'max-h-[1000px]' : 'max-h-[600px]'}`}
                 />
               </div>
 
