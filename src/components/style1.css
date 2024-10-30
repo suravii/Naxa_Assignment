@@ -3,20 +3,20 @@
   }
   
   .dropdown-item:hover {
-    background-color: #fbbf24; /* Custom hover color */
+    background-color: #fedc1d; 
   }
   
-  /* Add this for full-screen mobile menu */
+ 
   .fixed.inset-0 {
-    z-index: 50; /* Make sure it's above other elements */
+    z-index: 50; 
   }
   
   /* Custom color classes */
   .bg-custom-yellow {
-    background-color: #fbbf24; /* Example color */
+    background-color: #fedc1d; 
   }
   
-  .text-custom-orange {
-    color: #ff4500; /* Example color */
-  }
+  /* .text-custom-orange {
+    color: #ff4500; 
+  } */
   

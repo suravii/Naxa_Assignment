@@ -9,7 +9,7 @@ export default {
     extend: {
       colors: { // Change 'color' to 'colors'
         'custom-yellow': '#ffdc1c',
-        'custom-orange': '#ffab00',
+        'custom-orange': '#feaa00',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'], 

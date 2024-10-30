@@ -161,10 +161,7 @@
 }
 
 
-/* .container-for-id-4 .service-card {
-    background-color: #f5f5dc; 
-    border: 1px solid #deb887;
-  } */
+
  
 /* Target the image specifically for container-for-id-4 */
 .container-for-id-4 .service-image img {
@@ -187,8 +184,8 @@
 .container-for-id-6,
 .container-for-id-7,
 .container-for-id-8 {
-  padding-left: 30px; /* Adjust as needed */
-  padding-right: 30px; /* Adjust as needed */
+  padding-left: 30px;
+  padding-right: 30px; 
 }
 
 /* Maintain the mobile styles */
@@ -201,34 +198,34 @@
   .container-for-id-6,
   .container-for-id-7,
   .container-for-id-8 {
-    padding-left: 0; /* Reset for mobile view */
-    padding-right: 0; /* Reset for mobile view */
+    padding-left: 0; 
+    padding-right: 0; 
   }
 }
 /* Mobile styles */
 @media (max-width: 768px) {
     /* Adjust the icon size */
     .service-icon {
-      width: 10px; /* Decrease size as needed */
-      height: 10px; /* Decrease size as needed */
+      width: 10px; 
+      height: 10px; 
     }
   
-    /* Adjust the image size */
+    
     .service-header img {
       width: 100%; /* Full width */
-      max-width: 50px; /* Limit max width as needed */
-      height: auto; /* Maintain aspect ratio */
+      max-width: 50px; 
+      height: auto; 
     }
   
-    /* Adjust the title size */
+    
     .service-title {
-      font-size: 24px; /* Decrease font size as needed */
+      font-size: 24px; 
     }
   
-    /* Adjust the description size */
+    
     .service-description_h,
     .service-description {
-      font-size: 14px; /* Decrease font size as needed */
+      font-size: 14px; 
     }
   }
   
