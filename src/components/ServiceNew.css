@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* .container{
+    padding-right: 50px;
+} */
+ 
+  
+  /* Hover effect */
+  .container-for-id-4 .service-image-new img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+/* Base styling for all service cards */
+.service-card {
+  display: flex;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  margin: 10px 0;
+}
+
+/* ID-specific container styles */
+.container-for-id-1 .service-card {
+  background-color: #f5f4f5; /* Light blue */
+  
+}
+
+.container-for-id-2 .service-card {
+  background-color: #f5f4f5; /* Blanched almond */
+ 
+}
+
+.container-for-id-3 .service-card {
+    background-color: #f5f4f5;
+    
+
+}
+
+.container-for-id-4 .service-card {
+    background-color: #f5f4f5;
+
+}
+
+.container-for-id-5 .service-card {
+    background-color: #f5f4f5;
+  
+}
+
+.container-for-id-6 .service-card {
+    background-color: #f5f4f5;
+
+}
+
+.container-for-id-7 .service-card {
+    background-color: #f5f4f5;
+ 
+}
+
+.container-for-id-8 .service-card {
+    background-color: #f5f4f5;
+ 
+}
+
+/* Image section on the left */
+.service-image-new {
+  width: 50%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-image-new img {
+  width: 75%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+/* Content section with icon and title on the right */
+.service-content-new {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Header styling */
+.service-header-new {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.service-icon-new {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.service-title-new {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* Description styling */
+.service-descriptions-new {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.service-description_h-new {
+  line-height: 30px;
+}
+
+.service-description-new {
+  color: #666;
+  background-color: #e9ebff;
+  line-height: 1.6;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .service-card {
+    flex-direction: column;
+  }
+
+  .service-image-new, .service-content-new {
+    width: 100%;
+  }
+
+  .service-content-new {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1400px) {
+  .service-card {
+    flex-direction: column;
+  }
+
+  .service-image-new {
+    width: 65%;
+  }
+
+  .service-image-new img {
+    width: 60%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .service-content-new {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+
+/* .container-for-id-4 .service-card {
+    background-color: #f5f5dc; 
+    border: 1px solid #deb887;
+  } */
+ 
+/* Target the image specifically for container-for-id-4 */
+.container-for-id-4 .service-image img {
+    width: 75%;
+    height: auto;
+    max-height: 1000px;
+    object-fit: cover;
+  }
+  
+  .container-for-id-4 .service-image{
+    padding-top: 50px;
+  }
+
+  /* Add padding for all container classes */
+.container-for-id-1,
+.container-for-id-2,
+.container-for-id-3,
+.container-for-id-4,
+.container-for-id-5,
+.container-for-id-6,
+.container-for-id-7,
+.container-for-id-8 {
+  padding-left: 30px; /* Adjust as needed */
+  padding-right: 30px; /* Adjust as needed */
+}
+
+/* Maintain the mobile styles */
+@media (max-width: 768px) {
+  .container-for-id-1,
+  .container-for-id-2,
+  .container-for-id-3,
+  .container-for-id-4,
+  .container-for-id-5,
+  .container-for-id-6,
+  .container-for-id-7,
+  .container-for-id-8 {
+    padding-left: 0; /* Reset for mobile view */
+    padding-right: 0; /* Reset for mobile view */
+  }
+}
+/* Mobile styles */
+@media (max-width: 768px) {
+    /* Adjust the icon size */
+    .service-icon {
+      width: 10px; /* Decrease size as needed */
+      height: 10px; /* Decrease size as needed */
+    }
+  
+    /* Adjust the image size */
+    .service-header img {
+      width: 100%; /* Full width */
+      max-width: 50px; /* Limit max width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    /* Adjust the title size */
+    .service-title {
+      font-size: 24px; /* Decrease font size as needed */
+    }
+  
+    /* Adjust the description size */
+    .service-description_h,
+    .service-description {
+      font-size: 14px; /* Decrease font size as needed */
+    }
+  }
+  

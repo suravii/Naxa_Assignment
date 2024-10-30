@@ -1,0 +1,9 @@
+/* styles.css or your custom CSS file */
+@media (min-width: 1024px) {
+    .custom-padding {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+ 
